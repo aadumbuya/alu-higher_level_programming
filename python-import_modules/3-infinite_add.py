@@ -2,7 +2,7 @@
 
 import sys
 
-if _name_ == '_main_':
+if __name__ == '__main__':
     args = sys.argv[1:]
 
     # Convert each argument to an integer and sum them up
