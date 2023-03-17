@@ -14,7 +14,7 @@ class Square:
         self.size = size
         self.position = position
 
-    def _str_(self):
+    def __str__(self):
         self.my_print()
 
     @property
