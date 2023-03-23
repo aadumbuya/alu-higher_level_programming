@@ -1,9 +1,9 @@
 #!/usr/bin/python3
-"""This script defines a Rectangle class."""
+"""Defines a Rectangle class."""
 
 
 class Rectangle:
-    """This represent a rectangle."""
+    """Represent a rectangle."""
 
     def __init__(self, width=0, height=0):
         """Initialize a new Rectangle.
@@ -42,10 +42,10 @@ class Rectangle:
 
     def area(self):
         """Return the area of the Rectangle."""
-        return (self._width * self._height)
+        return (self.__width * self.__height)
 
     def perimeter(self):
         """Return the perimeter of the Rectangle."""
-        if self._width == 0 or self._height == 0:
+        if self.__width == 0 or self.__height == 0:
             return (0)
-        return ((self._width * 2) + (self._height * 2))
+        return ((self.__width * 2) + (self.__height * 2))
