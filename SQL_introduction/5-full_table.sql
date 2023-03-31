@@ -1,0 +1,3 @@
+-- TABLE DECRIPTION
+
+SHOW CREATE TABLE first_table;
